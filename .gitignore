@@ -1,0 +1,7 @@
+splinferd
+splinfer
+obj/
+*.o
+*.bak
+*~
+*.tmp
