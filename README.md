@@ -79,7 +79,7 @@ radioactive goop.
 
 ## Building 
 
-See the Makefile. I don't want to create an illusion of safety by offering a convenient polished build script that makes it easy to deploy something that's probably going to be unstable, so that's the best it's going to get for now.
+See the Makefile. I don't want to create an illusion of safety by offering a convenient polished build script that makes it easy to deploy something that's probably going to be unstable, so that's the best it's going to get for now. Note that you'll need libllama, libggml, libggml-base from llama.cpp (you need to build and install them separately). 
 
 If you use it, you know what you're doing (and probably what I'm doing, too!)
 
