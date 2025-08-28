@@ -49,7 +49,7 @@ to toggle between streams and chunks).
 Most options are vanishing and moving to a configuration format (most likely
 JSON in Splinter) - we're keeping most innards.
 
-Improved support for RWKV[6] is eminently planned (Splinter is ideal 
+Improved support for [RWKV][6] is eminently planned (Splinter is ideal 
 for this as state vector updates can also become subscriptions, and instantaneous
 switching between conversations by orchestrating address resolution).
 
