@@ -32,12 +32,14 @@ made to provide backing for it.
 If socket access to completion (e.g. OpenAI style) or MCP is desired, you
 can use the [Libsplinter Deno FFI bindings][4] and an Oak front-end.
 
-## Current Status
+## Current Status And Focus (What's Going On?)
 
-For the most part, it's still llama-cli. I'm in the process of converting 
-***all*** I/O, including debugging, over to Splinter writes. There's also a
-lot of wrangling around how memory and threads are ultimately going to be 
-managed.
+For the most part, it's still llama-cli. That is very quickly going to 
+change.
+
+I'm in the process of converting  ***all*** I/O, including debugging, over 
+to Splinter writes. There's also a lot of wrangling around how memory and 
+threads are ultimately going to be managed.
 
 The base [libsplinter wire protocol][5] is the starting point for handoff,
 and should be sufficient for what's needed, but everything is going to need
