@@ -5,6 +5,7 @@
 #include "sampling.h"
 #include "llama.h"
 #include "chat.h"
+#include <splinter.h>
 
 #include <cstdio>
 #include <cstring>
@@ -14,6 +15,7 @@
 #include <sstream>
 #include <string>
 #include <vector>
+#include <splinter.h>
 
 #if defined (__unix__) || (defined (__APPLE__) && defined (__MACH__))
 #include <signal.h>
